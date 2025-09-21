@@ -157,7 +157,17 @@ SecureGallery Pro is a comprehensive file management system with enterprise-grad
 - **zod**: Runtime type validation and schema definition
 - **nanoid**: URL-safe unique ID generation
 
-## Recent Changes (September 16, 2025)
+## Recent Changes (September 21, 2025)
+
+### Windows Deployment with PostgreSQL + IIS
+- **Target Environment**: PostgreSQL + IIS reverse proxy configuration
+- **File Storage**: Configurable location (D:\project\mediavault)
+- **Web Location**: IIS deployment (C:\inetpub\wwwroot\mediavault)
+- **Database**: PostgreSQL (production-ready, same as development)
+- **Process Management**: PM2 with Windows service integration
+- **Configuration**: Environment-specific .env files for seamless deployment
+
+### Previous Changes (September 16, 2025)
 
 ### Major Features Implemented
 1. **Fixed Gallery Issues**:
